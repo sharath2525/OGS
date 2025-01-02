@@ -1,0 +1,16 @@
+C:\Users\2369977\source\repos\Loginn\bin\Debug\net8.0-windows\Loginn.exe
+C:\Users\2369977\source\repos\Loginn\bin\Debug\net8.0-windows\Loginn.deps.json
+C:\Users\2369977\source\repos\Loginn\bin\Debug\net8.0-windows\Loginn.runtimeconfig.json
+C:\Users\2369977\source\repos\Loginn\bin\Debug\net8.0-windows\Loginn.dll
+C:\Users\2369977\source\repos\Loginn\bin\Debug\net8.0-windows\Loginn.pdb
+C:\Users\2369977\source\repos\Loginn\obj\Debug\net8.0-windows\Loginn.Form1.resources
+C:\Users\2369977\source\repos\Loginn\obj\Debug\net8.0-windows\Loginn.csproj.GenerateResource.cache
+C:\Users\2369977\source\repos\Loginn\obj\Debug\net8.0-windows\Loginn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2369977\source\repos\Loginn\obj\Debug\net8.0-windows\Loginn.AssemblyInfoInputs.cache
+C:\Users\2369977\source\repos\Loginn\obj\Debug\net8.0-windows\Loginn.AssemblyInfo.cs
+C:\Users\2369977\source\repos\Loginn\obj\Debug\net8.0-windows\Loginn.csproj.CoreCompileInputs.cache
+C:\Users\2369977\source\repos\Loginn\obj\Debug\net8.0-windows\Loginn.dll
+C:\Users\2369977\source\repos\Loginn\obj\Debug\net8.0-windows\refint\Loginn.dll
+C:\Users\2369977\source\repos\Loginn\obj\Debug\net8.0-windows\Loginn.pdb
+C:\Users\2369977\source\repos\Loginn\obj\Debug\net8.0-windows\Loginn.genruntimeconfig.cache
+C:\Users\2369977\source\repos\Loginn\obj\Debug\net8.0-windows\ref\Loginn.dll

@@ -1,0 +1,226 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2369977\\source\\repos\\OG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|c:\\users\\2369977\\source\\repos\\og\\og\\models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|solutionrelative:og\\models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|c:\\users\\2369977\\source\\repos\\og\\og\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|solutionrelative:og\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|c:\\users\\2369977\\source\\repos\\og\\og\\models\\deliverydetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|solutionrelative:og\\models\\deliverydetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|c:\\users\\2369977\\source\\repos\\og\\og\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|solutionrelative:og\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|c:\\users\\2369977\\source\\repos\\og\\og\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|solutionrelative:og\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|c:\\users\\2369977\\source\\repos\\og\\og\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|solutionrelative:og\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|c:\\users\\2369977\\source\\repos\\og\\og\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|solutionrelative:og\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|c:\\users\\2369977\\source\\repos\\og\\og\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|solutionrelative:og\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|c:\\users\\2369977\\source\\repos\\og\\og\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|solutionrelative:og\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|c:\\users\\2369977\\source\\repos\\og\\og\\models\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|solutionrelative:og\\models\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|c:\\users\\2369977\\source\\repos\\og\\og\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3983B69D-48A9-4D55-9E3D-4EE065B58827}|OG\\OG.csproj|solutionrelative:og\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\Stock.cs",
+              "RelativeDocumentMoniker": "OG\\Models\\Stock.cs",
+              "ToolTip": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\Stock.cs",
+              "RelativeToolTip": "OG\\Models\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:42:10.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeliveryDetails.cs",
+              "DocumentMoniker": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\DeliveryDetails.cs",
+              "RelativeDocumentMoniker": "OG\\Models\\DeliveryDetails.cs",
+              "ToolTip": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\DeliveryDetails.cs",
+              "RelativeToolTip": "OG\\Models\\DeliveryDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T05:05:12.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderDetails.cs",
+              "DocumentMoniker": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\OrderDetails.cs",
+              "RelativeDocumentMoniker": "OG\\Models\\OrderDetails.cs",
+              "ToolTip": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\OrderDetails.cs",
+              "RelativeToolTip": "OG\\Models\\OrderDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T05:00:35.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "OG\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\Order.cs",
+              "RelativeToolTip": "OG\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T04:53:02.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "OG\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\CartItem.cs",
+              "RelativeToolTip": "OG\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T04:49:49.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "OG\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\Cart.cs",
+              "RelativeToolTip": "OG\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T04:47:50.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "OG\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\Category.cs",
+              "RelativeToolTip": "OG\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T04:42:43.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\User.cs",
+              "RelativeDocumentMoniker": "OG\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\User.cs",
+              "RelativeToolTip": "OG\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T09:30:51.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "OG\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\Product.cs",
+              "RelativeToolTip": "OG\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T09:52:06.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SubCategory.cs",
+              "DocumentMoniker": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\SubCategory.cs",
+              "RelativeDocumentMoniker": "OG\\Models\\SubCategory.cs",
+              "ToolTip": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\Models\\SubCategory.cs",
+              "RelativeToolTip": "OG\\Models\\SubCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T04:45:44.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\appsettings.json",
+              "RelativeDocumentMoniker": "OG\\appsettings.json",
+              "ToolTip": "C:\\Users\\2369977\\source\\repos\\OG\\OG\\appsettings.json",
+              "RelativeToolTip": "OG\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-30T09:10:34.708Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
