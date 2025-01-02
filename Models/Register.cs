@@ -6,7 +6,7 @@ namespace OGS.Models
     public class Register
     {
         [Required,EmailAddress]
-        public string Email { get; set; }
+        public required string Email { get; set; }
 
 
         [Required,MinLength(6,ErrorMessage ="Password must be atleast 6 characters")]
@@ -19,7 +19,7 @@ namespace OGS.Models
 
 
         [Required]
-        public string Role {  get; set; }
+        public required string Role {  get; set; }
 
 
     }

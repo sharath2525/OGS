@@ -1,0 +1,56 @@
+﻿﻿@{
+    ViewData["Title"] = "Online Grocery Store "; 
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger text-center" role="alert">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@if (TempData["SuccessMessage"]!= null)
+{
+    <div class="alert alert-danger text-center" role="alert">
+        @TempData["SuccessMessage"]
+    </div>
+}
+@model OGS.Models.Login
+
+<div class="main-container">
+    <div class="welcome-text">
+        <h1>Online Grocey Store </h1>
+        <p>Welcome Back! Freshness Awaits You.</p>
+    </div>
+
+<head>
+    <link rel="loginsheet" href="~/css/login.css" />
+
+</head>
+
+<div class="login-card">
+    <form method="post" action="@Url.Action("login","login")">
+        <div class="form-group">
+                <lable asp-for="Email"></lable>
+                <input asp-for="Email" type="email" class="form-control" placeholder="Enter your email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group mt-3">
+            <label asp-for="Password">
+                <input asp-for="Password" class="form-control" placeholder="Enter your Password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </label>
+        </div>
+        <div class="form-group mt-4">
+              <label asp-for="Role"></label>
+              <select asp-for="Role" class="form-control">
+                   <option value="User">User</option>
+                   <option value="Admin">Admin</option>
+              </select>
+              <span asp-validation-for="Role" class="text-danger"></span>
+        </div>
+            <button type="submit" class="btn btn-primary btn-submit">Register</button>
+            <a href="@Url.Action("register", "register")" class="btn btn-secondary btn-cancel">Cancel</a>
+     </form>
+
+    
+</div>
