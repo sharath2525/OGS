@@ -1,52 +1,90 @@
 ﻿
+
 body {
     background-image: url('/images/loginBG.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
     margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-.main-container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    padding: 20px;
+    height: 100vh;
 }
-.welcome-text{
-    color:black;
-    margin-bottom:20px;
-}
-    .welcome-text h1{
-        font-size:2rem;
 
-    }
-    .welcome-text p{
-        font-size:1.5rem;
-        margin-top:10px;
-
-    }
 .login-card {
-    background-color: rgba(255, 255, 255, 0.9);
-    padding:20px;
-    border-radius:13px;
-    width:100%;
-    max-width:350px;
-    box-shadow:0 4px 8px rgba(0,0,0,0.2);
-    margin:20px auto;
-}
-.form-group{
-    text-align:left;
-
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    align-content:center;
 }
 
-.btn{
-    margin-top:13px;
-
+.form-group {
+    margin-bottom: 5px;
 }
 
+    .form-group label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .form-control:focus {
+        border-color: #80bdff;
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+    }
+
+.btn {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #004085;
+    }
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+        border-color: #545b62;
+    }
+
+.text-danger {
+    color: #dc3545;
+    font-size: 14px;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.w-100 {
+    width: 100%;
+}

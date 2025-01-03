@@ -7,6 +7,8 @@ namespace OGS.Models
         [Key]
         public int UserId { get; set; }
 
+        public required string FullName { get; set; }
+
 
         [Required(ErrorMessage = "Email is required.")]
         public required string Email { get; set; }
