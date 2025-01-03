@@ -15,20 +15,24 @@
     </div>
 }
 @model OGS.Models.Login
-
-<div class="main-container">
-    <div class="welcome-text">
-        <h1>Online Grocey Store </h1>
-        <p>Welcome Back! Freshness Awaits You.</p>
-    </div>
+<html>
 
 <head>
-    <link rel="loginsheet" href="~/css/login.css" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/login.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
+<body >
 
+    <div class="main-container">
+        <div class="welcome-text">
+            <h1>Online Grocey Store </h1>
+            <p>Welcome Back! Freshness Awaits You.</p>
+    </div>
 <div class="login-card">
-    <form method="post" action="@Url.Action("login","login")">
+    <form method="post" action="@Url.Action("Login","Login")">
         <div class="form-group">
                 <lable asp-for="Email"></lable>
                 <input asp-for="Email" type="email" class="form-control" placeholder="Enter your email" />
@@ -48,9 +52,14 @@
               </select>
               <span asp-validation-for="Role" class="text-danger"></span>
         </div>
-            <button type="submit" class="btn btn-primary btn-submit">Register</button>
-            <a href="@Url.Action("register", "register")" class="btn btn-secondary btn-cancel">Cancel</a>
+                <button type="submit" class="btn btn-primary mt-4 w-100">Login</button>
+           
      </form>
 
-    
+           
+            <a href="@Url.Action("Register", "Register")" class="btn btn-secondary mt-3 w-100">Create New Account</a>
 </div>
+
+
+    </body>
+</html>
