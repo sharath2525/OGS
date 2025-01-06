@@ -1,0 +1,65 @@
+﻿.navbar {
+    background-color: #4caf50; /* Fresh green background color */
+}
+
+.navbar-brand {
+    color: #ffffff; /* White text color for brand */
+    font-size: 1.5rem; /* Larger font size for brand */
+    font-weight: bold; /* Bold font for brand */
+}
+
+    .navbar-brand:hover {
+        color: #c8e6c9; /* Light green color on hover */
+    }
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* White text color for links */
+    margin-right: 1rem; /* Space between links */
+}
+
+    .navbar-nav .nav-link:hover {
+        color: #c8e6c9; /* Light green color on hover */
+    }
+
+    .navbar-nav .nav-link.active {
+        color: #ffeb3b; /* Bright yellow color for active link */
+    }
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1); /* Light border color for toggler */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.form-control {
+    border: 1px solid #ced4da; /* Light border color for input */
+    border-radius: 0.25rem; /* Rounded corners for input */
+    padding-left: 2.5rem; /* Space for the search icon */
+}
+
+.input-group-text {
+    background-color: #ffffff; /* White background for the icon */
+    border: none; /* Remove border */
+}
+
+.form-control:focus {
+    border-color: #ffeb3b; /* Bright yellow border color on focus */
+    box-shadow: 0 0 0 0.2rem rgba(255, 235, 59, 0.25); /* Light yellow shadow on focus */
+}
+
+.btn {
+    background-color: #ffeb3b; /* Bright yellow background color for button */
+    color: #343a40; /* Dark gray text color for button */
+    border: none; /* Remove border */
+}
+
+    .btn:hover {
+        background-color: #fdd835; /* Darker yellow on hover */
+        color: #ffffff; /* White text color on hover */
+    }
+#search-input {
+    width: 400px;
+    height: 50px;
+}

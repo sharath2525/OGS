@@ -5,11 +5,16 @@ namespace OGS.Models
 {
     public class Register
     {
-        [Required,EmailAddress]
+        [Required]
+        [EmailAddress(ErrorMessage = "Invalid email address")]
         public string Email { get; set; }
 
+        [Required]
+        public string FullName { get; set; }
 
-        [Required,MinLength(6,ErrorMessage ="Password must be atleast 6 characters")]
+
+        [Required(ErrorMessage ="Please enter Password")]
+        [MinLength(6,ErrorMessage ="Password must be atleast 6 characters")]
         public required string Password { get; set; }
 
 
