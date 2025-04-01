@@ -1,0 +1,75 @@
+﻿@model List<Product>
+<partial name="_Notification" />
+
+<style>
+    #cnp {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+        #cnp input[type="search"] {
+            height: 38px; 
+            flex: 1;
+        }
+
+        #cnp button {
+            height: 38px; 
+        }
+</style>
+<div class="container mt-5">
+    <div class="row pt-4 pb-3">
+        <div class="col-6">
+            <h2 class="text-dark">
+                Product List
+            </h2>
+        </div>
+
+        <div class="col-6 text-end" id="cnp">
+            <form asp-action="Index" asp-controller="Product" method="get" class="d-flex" style="gap: 1px;">
+                <input type="search" name="SearchString" placeholder="Search" class="form-control" />
+                <button type="submit" class="btn btn-outline-dark">Search</button>
+            </form>
+            <a asp-controller="Product" asp-action="Upsert" class="btn btn-success shadow">
+                Create New Product
+            </a>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-striped table-hover shadow-sm rounded">
+        <thead class="table-dark">
+            <tr>
+                <th>Product Name</th>
+                <th>Image</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in Model)
+            {
+                <tr>
+                    <td>@obj.ProductName</td>
+                    <td><img src="@obj.ImageUrl" alt="Product Image" class="img-thumbnail" width="50" /></td>
+                    <td>@obj.Price</td>
+                    <td>@obj.Quantity</td>
+                    <td>@obj.Description</td>
+                    <td>@obj.Category.CategoryName</td>
+                    <td>        
+                        <div class="btn-group" role="group">
+                            <a asp-controller="Product" asp-action="Upsert" asp-route-id="@obj.ProductId" class="btn btn-primary mx-1 shadow">
+                                Edit
+                            </a>
+                            <a asp-controller="Product" asp-action="Delete" asp-route-id="@obj.ProductId" class="btn btn-danger mx-1 shadow">
+                                Delete
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

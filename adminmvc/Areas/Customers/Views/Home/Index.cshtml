@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Product>
+
+
+<section style="background-image: url('/images/homebanner.png'); background-repeat: no-repeat;  background-size: cover; background-position: center; padding: 60px 0;border-radius:40px;">
+    <div class="container-lg text-light">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="display-3 fw-bold"><span class="text-dark">Fresh</span> & <span class="text-success">Organic</span> Groceries</h1>
+                <p class="lead">Get the best quality fruits, vegetables, and dairy products delivered to your doorstep.</p>
+                <div class="d-flex gap-3 mt-4">
+                    <a href="#" class="btn btn-dark btn-lg rounded-pill px-4 py-3 shadow">Shop Now</a>
+                    <a href="#" class="btn btn-outline-light btn-lg rounded-pill px-4 py-3 shadow">Join Us</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card border-0 bg-success text-light p-4 rounded-3 shadow-sm mb-4">
+                    <div class="card-body text-center">
+                        <svg width="60" height="60" class="mb-3"><use xlink:href="#delivery"></use></svg>
+                        <h5 class="card-title">Free Delivery</h5>
+                        <p class="card-text">Enjoy free delivery on all orders, bringing  to your doorstep.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0 bg-dark text-light p-4 rounded-3 shadow-sm mb-4">
+                    <div class="card-body text-center">
+                        <svg width="60" height="60" class="mb-3"><use xlink:href="#quality"></use></svg>
+                        <h5 class="card-title">Best Quality</h5>
+                        <p class="card-text">We ensure the highest quality standards for all our products.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0 bg-danger text-light p-4 rounded-3 shadow-sm mb-4">
+                    <div class="card-body text-center">
+                        <svg width="60" height="60" class="mb-3"><use xlink:href="#support"></use></svg>
+                        <h5 class="card-title">24/7 Support</h5>
+                        <p class="card-text">Our customer support team is here to help you anytime.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr />
+
+<h2 class="p-3">Top Products</h2>
+
+
+
+
+<div class="row pb-3">
+    @foreach (var product in Model)
+    {
+        <div class="col-lg-3 col-sm-6">
+            <div class="row p-2">
+                <div class="col-12 p-1">
+                    <div class="card border-0 p-3 shadow-lg border-top border-5 rounded" style="background: #f8f9fa;">
+                        <img src="@product.ImageUrl" class="card-img-top rounded" style="height: 200px; object-fit: cover;" />
+                        <div class="pl-1 mt-2">
+                            <p class="card-title h5 text-uppercase" style="color: #00a859;">@product.ProductName</p>
+                        </div>
+                        <div class="mt-2">
+                            <p class="card-title h6 text-secondary" style="color: #007b55;">Avaliable @product.Quantity</p>
+                            <p class="card-title h6 text-secondary" style="color: #007b55;">₹ @product.Price</p>
+                        </div>
+                        <div class="mt-3">
+                            <a asp-area="Customers" asp-action="Details" asp-controller="Home" asp-route-id="@product.ProductId" class="btn form-control" style="background: #212529; border: none; color: white; font-weight: bold;">
+                                Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

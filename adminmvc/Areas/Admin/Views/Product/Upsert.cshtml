@@ -1,0 +1,70 @@
+﻿@model ProductVM
+
+<div class="container mt-5">
+    <div class="row pb-2">
+        <h2 class="text-primary">@((Model.Product.ProductId != 0) ? "Update" : "Create") Product</h2>
+        <hr />
+    </div>
+    <form method="post" enctype="multipart/form-data">
+        <input asp-for="Product.ProductId" hidden />
+        <input asp-for="Product.ImageUrl" hidden />
+        <div class="row border-1">
+            <div class="col-10">
+                <div class="border p-4 my-4 shadow-sm rounded">
+                    <div class="mb-3 row p-1 shadow-sm rounded">
+                        <label asp-for="Product.ProductName" class="p-0 fw-bold"></label>
+                        <input asp-for="Product.ProductName" class="form-control" />
+                        <span asp-validation-for="Product.ProductName" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3 row p-1 shadow-sm rounded">
+                        <label asp-for="Product.ImageUrl" class="p-0 fw-bold"></label>
+                        <input type="file" asp-for="Product.ImageUrl" name="file" class="form-control" />
+                    </div>
+                    <div class="mb-3 row p-1 shadow-sm rounded">
+                        <label asp-for="Product.Price" class="p-0 fw-bold"></label>
+                        <input asp-for="Product.Price" class="form-control" />
+                        <span asp-validation-for="Product.Price" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3 row p-1 shadow-sm rounded">
+                        <label asp-for="Product.Quantity" class="p-0 fw-bold"></label>
+                        <input asp-for="Product.Quantity" class="form-control" />
+                        <span asp-validation-for="Product.Quantity" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3 row p-1 shadow-sm rounded">
+                        <label asp-for="Product.Description" class="p-0 fw-bold"></label>
+                        <textarea asp-for="Product.Description" class="form-control"></textarea>
+                        <span asp-validation-for="Product.Description" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3 row p-1 shadow-sm rounded">
+                        <label asp-for="Product.CategoryId" class="p-0 fw-bold"></label>
+                        <select asp-for="Product.CategoryId" asp-items="@Model.CategoryList" class="form-select">
+                            <option disabled selected>--Select Category--</option>
+                        </select>
+                        <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6" shadow-sm rounded>
+                            @if (Model.Product.ProductId != 0)
+                            {
+                                <button type="submit" class="btn btn-primary form-control shadow">Update</button>
+                            }
+                            else
+                            {
+                                <button type="submit" class="btn btn-primary form-control shadow">Create</button>
+                            }
+                        </div>
+                        <div class="col-6" shadow-sm rounded>
+                            <a asp-controller="Product" asp-action="Index" class="btn btn-secondary border form-control shadow">
+                                Back to List
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2" shadow-sm rounded>
+                <img src="@Model.Product.ImageUrl" width="100%" class="img-thumbnail" />
+            </div>
+        </div>
+    </form>
+</div>

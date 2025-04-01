@@ -1,0 +1,32 @@
+﻿@model Category
+
+<div class="container mt-5">
+    <form method="post">
+        <input asp-for="CategoryId" hidden />
+        <div class="border p-4 mt-4 shadow-sm rounded">
+            <div class="row pb-2">
+                <h2 class="text-danger">Delete Category</h2>
+                <hr />
+            </div>
+            <div class="mb-3 row p-1">
+                <label asp-for="CategoryName" class="p-0 fw-bold"></label>
+                <input asp-for="CategoryName" disabled class="form-control" />
+            </div>
+            <div class="mb-3 row p-1">
+                <label asp-for="DisplayOrder" class="p-0 fw-bold"></label>
+                <input asp-for="DisplayOrder" disabled class="form-control" />
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <button type="submit" class="btn btn-danger form-control shadow">Delete</button>
+                </div>
+                <div class="col-6">
+                    <a asp-controller="Category" asp-action="Index" class="btn btn-secondary border form-control shadow">
+                        Back to List
+                    </a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

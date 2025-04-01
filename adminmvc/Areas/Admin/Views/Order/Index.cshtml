@@ -1,0 +1,98 @@
+﻿@model List<Order>
+
+<style>
+    #cnp {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+        #cnp input[type="search"] {
+            height: 38px;
+            flex: 2;
+        }
+
+        #cnp button {
+            height: 38px;
+        }
+
+    #s {
+        display: flex;
+        align-items: center;
+    }
+
+        #s a {
+            text-decoration: none;
+            border: 1px solid gray;
+            padding: 4px;
+            color: black;
+            background-color: aliceblue;
+            border-radius: 2px;
+            width: 90px;
+            text-align: center;
+            
+        }
+
+            #s a:last-child {
+                margin-right: 0;
+            }
+</style>
+
+<div class="container mt-5">
+    <div class="row pt-4 pb-3">
+        <div class="col-6">
+            <h2 class="text-primary">
+                Order List
+            </h2>
+        </div>
+    </div>
+    <div class="row pb-3">
+        <div class="col-6" id="cnp">
+            <form asp-action="Index" asp-controller="Order" method="get" class="d-flex" style="gap: 1px;">
+                <input type="search" name="SearchString" placeholder="Search" class="form-control" />
+                <button type="submit" class="btn btn-outline-primary">Search</button>
+            </form>
+        </div>
+        <div class="col-6" id="s">
+            <a asp-action="Index" asp-controller="Order" asp-route-SortBy="All">All</a>
+            <a asp-action="Index" asp-controller="Order" asp-route-SortBy="Cancelled">Cancelled</a>
+            <a asp-action="Index" asp-controller="Order" asp-route-SortBy="Approved">Approved</a>
+            <a asp-action="Index" asp-controller="Order" asp-route-SortBy="Shipped">Shipped</a>
+            <a asp-action="Index" asp-controller="Order" asp-route-SortBy="Failed">Failed</a>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-striped table-hover shadow-sm rounded">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Phone Number</th>
+                <th>Email</th>
+                <th>Status</th>
+                <th>Total</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in Model)
+            {
+                <tr>
+                    <td>@obj.OrderId</td>
+                    <td>@obj.Name</td>
+                    <td>@obj.PhoneNumber</td>
+                    <td>@obj.ApplicationUser.Email</td>
+                    <td>@obj.OrderStatus</td>
+                    <td>@obj.OrderTotal</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a asp-controller="Order" asp-action="Details" asp-route-id="@obj.OrderId" class="btn btn-primary mx-1 shadow">
+                                Edit
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

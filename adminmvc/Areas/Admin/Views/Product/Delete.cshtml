@@ -1,0 +1,44 @@
+﻿@model Product
+
+<div class="container mt-5">
+    <form method="post">
+        <input asp-for="ProductId" hidden />
+        <div class="border p-4 my-4 shadow-sm rounded">
+            <div class="row pb-2">
+                <h2 class="text-danger">Delete Product</h2>
+                <hr />
+            </div>
+            <div class="mb-3 row p-1 shadow-sm rounded">
+                <label asp-for="ProductName" class="p-0 fw-bold"></label>
+                <input asp-for="ProductName" class="form-control" disabled />
+            </div>
+            <div class="mb-3 row p-1 shadow-sm rounded">
+                <label asp-for="ImageUrl" class="p-0 fw-bold"></label>
+                <input asp-for="ImageUrl" class="form-control" disabled />
+            </div>
+            <div class="mb-3 row p-1 shadow-sm rounded">
+                <label asp-for="Price" class="p-0 fw-bold"></label>
+                <input asp-for="Price" class="form-control" disabled />
+            </div>
+            <div class="mb-3 row p-1 shadow-sm rounded">
+                <label asp-for="Quantity" class="p-0 fw-bold"></label>
+                <input asp-for="Quantity" class="form-control" disabled />
+            </div>
+            <div class="mb-3 row p-1 shadow-sm rounded">
+                <label asp-for="Description" class="p-0 fw-bold"></label>
+                <textarea asp-for="Description" class="form-control" disabled></textarea>
+            </div>
+
+            <div class="row">
+                <div class="col-6 shadow-sm rounded">
+                    <button type="submit" class="btn btn-danger form-control shadow">Delete</button>
+                </div>
+                <div class="col-6 shadow-sm rounded">
+                    <a asp-controller="Product" asp-action="Index" class="btn btn-secondary border form-control shadow">
+                        Back to List
+                    </a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
